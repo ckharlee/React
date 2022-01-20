@@ -5,7 +5,10 @@ import CopyRight from './CopyRight'
 function Display({name, age, description, level, image}){
 
 
-    return(<Card>  
+    return(<Card style={{backgroundColor: "rgb(86, 180, 49)"}}>
+          (<Card style={{Shadow: "rgb(207, 207, 35)"}}>
+
+          </Card>
         <CardContent>
     <h1>{name}</h1>
         
